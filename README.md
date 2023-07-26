@@ -1,10 +1,8 @@
-- 👋 Hi, I’m Himanshu Yadav @himanshu82817
-- 👀 I’m seeking an opportunity in Data Science and machine Learning as a fresher
-- 🌱 I’m currently learning advance Machine Learning Algorithm, Deep Learning, NLP, OpenCV, Flask
-- 💞️ I’m looking to collaborate on Data Science and Machine Learning projects
-- 📫 Email me- himanshu82817@gmail.com or contact- +919466082817
+Hello, I'm Himanshu! 👋
+I'm a passionate developer with 2+ years of experience in the software industry. Here are my key skills:
 
-<!---
-himanshu82817/himanshu82817 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Frontend: Angular, React
+Backend: Node.js, Express.js
+Database: MongoDB
+UI Framework: Angular Material
+I love building robust web applications and exploring new technologies. Let's connect and collaborate on exciting projects!
