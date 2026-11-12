@@ -1,84 +1,43 @@
-# Hi, I'm Himanshu 👋
+# Himanshu Sehlangia
 
-I'm a **Software Engineer with 4+ years of experience**, focused on building scalable web applications and deeply understanding computer science fundamentals.
+Backend engineer, five years in. I build financial infrastructure and real-time systems in **Go** and **TypeScript (NestJS)** on **GCP**.
 
-I enjoy **thinking from first principles**, writing clean code, and working on problems that sit at the intersection of **engineering, systems, and long-term impact**.
+- **Fintech:** loan origination, underwriting and credit decisioning engines at SMC Finance
+- **Real-time:** live video streaming (RTMP ingest, FFmpeg, HLS) and WebRTC signalling in Go
+- **Problem solving:** LeetCode Knight, top 2.71% in contest rating, 1000+ problems solved
 
----
+Open to **remote senior backend roles**.
 
-## 🧠 What I Care About
+## What I'm building
 
-- Building **robust, maintainable software**
-- Understanding **how things work under the hood**
-- Growing from **framework-level knowledge → system-level thinking**
-- Creating products that are **useful, simple, and efficient**
+### [LifeBoard](https://lifeboardos.com)
 
----
+A journaling product: each day is a page of notes, photos, quotes and tasks, and every page becomes one square in a map of your whole life. NestJS and MongoDB on Cloud Run, with an Angular PWA client.
 
-## 💻 Tech Stack
+The backend work I'd point to:
 
-**Frontend**
-- Angular (v2–19), React
-- TypeScript, JavaScript
-- Material Web Components (MWC)
+- **Per-user envelope encryption.** AES-256-GCM data keys wrapped by Cloud KMS, ciphertexts bound to owner and field, rolled out in reversible stages with an idempotent backfill and a verification script.
+- **Media migration without downtime.** Moved images from base64 inside MongoDB documents to Cloud Storage with signed links, quotas and an orphan sweep.
+- **Reminders on a scale-to-zero platform.** Cloud Scheduler triggers an OIDC-guarded sweep endpoint, with graceful shutdown so a deploy never loses an in-flight push.
+- **Hardened auth.** Hashed OTPs and refresh tokens, per-account lockout, per-endpoint rate limits.
 
-**Backend**
-- Node.js, NestJS
-- REST APIs
-- SQL (PostgreSQL, MySQL)
-- TypeORM
+## Selected work
 
-**Other**
-- C++ (for DSA & systems thinking)
-- Python
-- Git, Linux
-- System Design & OOPS
+| | |
+|---|---|
+| **Workflow engine** | Configuration-driven engine for a multi-stage loan pipeline; business teams change stage flows and validation rules without a release |
+| **Underwriting engine** | Concurrent state transitions across multi-stage approvals, with isolated transactions for ACID guarantees |
+| **Event-driven services** | NestJS and GCP Pub/Sub workers replacing manual credit-verification steps |
+| **Live streaming server** | Go, goroutine-per-stream with channel-based fan-out, RTMP to HLS |
+| **AR filter pipeline** | On-device inference with native C++ and MediaPipe, bridged to React Native |
 
----
+## Stack
 
-## 🧩 Experience Highlights
+**Languages:** Go, TypeScript, C++, SQL
+**Backend:** NestJS, Node.js, WebSockets, WebRTC, event-driven architecture
+**Data:** PostgreSQL, SQL Server, MongoDB, Redis
+**Infrastructure:** GCP (Cloud Run, Pub/Sub, KMS, Cloud Storage), Docker, GitHub Actions
 
-- Improved **UI performance** by optimizing Angular reactive forms
-- Reduced **API calls** using smart caching strategies
-- Built modules that improved **operational efficiency** for business teams
-- Worked on:
-  - Loan Origination System
-  - Learning Management System
+## Find me
 
----
-
-## 📚 Currently Focused On
-
-- Advanced **Data Structures & Algorithms**
-- **Operating Systems, Computer Networks, DBMS**
-- Low-Level & High-Level **System Design**
-- Contributing to **open-source projects**
-- Building long-term products (e.g. *Life Board / Life OS*)
-
----
-
-## 🚀 Goals
-
-- Work on **challenging engineering problems**
-- Contribute to **high-quality codebases**
-- Grow toward **FAANG / top product-based companies**
-- Eventually reach **PhD-level depth in Computer Science** through self-study
-
----
-
-## 🌱 Philosophy
-
-> I believe consistency beats intensity.  
-> I prefer depth over noise.  
-> And I choose growth, even when it’s uncomfortable.
-
----
-
-## 📫 Connect With Me
-
-- **LinkedIn**: [linkedin.com/in/himanshu82817](https://www.linkedin.com/in/himanshu82817)
-- **Email**: himanshu82817@gmail.com
-
----
-
-⭐ If you find my work interesting, feel free to explore my repositories or reach out.
+[Website](https://himanshusehlangia.dev) · [LinkedIn](https://linkedin.com/in/himanshu82817) · [LeetCode](https://leetcode.com/u/himanshu82817)
