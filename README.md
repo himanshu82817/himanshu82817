@@ -1,6 +1,6 @@
 # Himanshu Sehlangia
 
-Backend engineer, five years in. I build financial infrastructure and real-time systems in **Go** and **TypeScript (NestJS)** on **GCP**.
+Backend engineer, five years in. I build financial infrastructure and real-time systems in **Go** and **TypeScript (NestJS)** on **GCP** and **AWS**.
 
 - **Fintech:** loan origination, underwriting and credit decisioning engines at SMC Finance
 - **Real-time:** live video streaming (RTMP ingest, FFmpeg, HLS) and WebRTC signalling in Go
